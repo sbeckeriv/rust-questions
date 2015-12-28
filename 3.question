@@ -1,0 +1,28 @@
+Problem statement
+
+Given a paragraph, find the word which is most occurring in it. If there are more than one such word, find the first occurring in the paragraph, among those. Same word with different case should be treated as different words ("The" and "the" are different words).
+
+
+Input
+
+A single line containing an English paragraph (~500 words)
+
+
+	Output
+
+	output the most occurring word
+
+
+	Sample test case
+
+
+	Input
+
+	Rust has move semantics by default, so if we want to make a copy of some data, we call the clone()method. In this example, y is no longer a reference to the vector stored in x, but a copy of its first element, "Hello". Now that we don’t have a reference, our push() works just fine.
+
+	Output
+
+	a
+
+
+

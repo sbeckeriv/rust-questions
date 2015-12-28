@@ -1,0 +1,49 @@
+Problem statement
+
+You have programmed a bot, which moves according to four instructions which are listed below
+
+1 -> move one unit in east direction
+
+2 -> move one unit in west direction
+
+3 -> move one unit in north direction
+
+4 -> move one unit in south direction
+
+One of the instruction is not working.
+
+Given the sequence of instructions and the instruction which is not working, find out the final position of the bot. Your bot is initially at (0,0). Note that the North is the direction of positive y axis and the East is the direction of positive x axis.
+
+
+Input
+
+First line contains the series of instruction (1 <= length of instruction <= 105)
+
+  Second line contains the instruction which is not working
+
+
+  Output
+
+  First line should contain the x coordinate
+
+  Second line should contain the y coordinate
+
+  [see image 5.jpg]
+
+  Sample test case
+
+
+  Input
+
+  131314224241
+  2
+
+
+  Output
+
+  4
+  -1
+
+
+
+

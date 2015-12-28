@@ -1,0 +1,26 @@
+Problem statement
+
+We have a gear assembly in a series. Some gears move in clockwise direction and some in anti clockwise direction. For the assembly to work properly, the adjacent gears should move in different direction. Given the assembly, what is the minimum number of gears whose direction has to be changed so that system works properly.
+
+
+Input
+
+A single line describing the gear assembly. "A" represents gear moving in anti clockwise direction and "C" represents gear moving in clockwise direction. (1<= gears <=105)
+
+
+Output
+
+output the minimum number of gears whose direction needs to be changed
+
+
+Sample test case
+
+
+Input
+
+ACCAC
+
+
+Output
+
+2

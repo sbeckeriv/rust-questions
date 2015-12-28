@@ -1,0 +1,17 @@
+Problem statement
+Pangram is a phrase that contains all of the letters of the alphabet. Given a phrase, find out whether it is an English language pangram. 
+ 
+	Input
+Single line containing a phrase (only English alphabets, space character and punctuation characters)
+	~20 words
+	 
+	Output
+	output "Yes" (quotes for clarity) if the phrase is an English language pangram, "No" otherwise.
+	 
+	Sample test case
+	Input
+	The quick brown fox jumps over the lazy dog 
+	 
+	Output
+	Yes
+

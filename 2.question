@@ -1,0 +1,42 @@
+Problem statement
+
+Simon is a con artist. He is trying to escape from the cops. He is trying to confuse the cops by going to different cities without taking breaks. But the cops got hold of the order of cities he is going to visit. Find the minimum number of days required to catch Simon. The cops can catch Simon only if if they reach one of the cities in the Simon's list before Simon or at the same time Simon does. All other cities are reachable from any city.
+
+
+In the sample test case, The cops will move to city 6 in 1 day and wait for Simon there. Simon reaches the city 6 in 5 days. Therefore cops can catch Simon in 5 days.
+
+[see image 2.jpeg]
+
+Input
+
+First line contains 3 space separated integers n (number of cities), m (number of possible routes) and c (city in which cops are present initially) (2<=n<=20, 1<=m<=40)
+
+  The next line contains the order in which Simon is going to visit the cities. The first one of those would be the city where he is present initially.
+
+  It is followed by m lines. Each line contains 3 space separated integers u (a city), v (a city) and d (the number of days required to travel between u and v). Note that travelling from u to v and travelling from v to u require the same number of days. Note that only one route is provided for any pair of cities.
+
+
+  Output
+
+  output the minimum number of days required to catch Simon. If there is no possible way to catch him, output -1
+
+
+  Sample test case
+
+
+  Input
+
+  6 7 1
+  2 4 6
+  2 4 2
+  2 3 3
+  4 6 3
+  4 1 6
+  3 1 5
+  3 5 2
+  6 1 1
+
+
+  Output
+
+  5
